@@ -14,7 +14,7 @@ timezone: Asia/Hong_Kong
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://wayneshao.github.io
 root: /
-permalink: :id.html
+permalink: :title.html
 permalink_defaults:
 
 
@@ -145,3 +145,8 @@ neat_js:
   compress:
   exclude:
     - ‘*.min.js’
+
+# https://github.com/viko16/hexo-permalink-pinyin
+permalink_pinyin:
+  enable: true
+  separator: '_' # default: '-'
