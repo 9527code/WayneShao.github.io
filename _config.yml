@@ -146,7 +146,8 @@ neat_js:
   exclude:
     - ‘*.min.js’
 
-# https://github.com/viko16/hexo-permalink-pinyin
-permalink_pinyin:
+# https://github.com/wayneshao/hexo-permalink-invalid-char
+permalink_invalid_char:
   enable: true
-  separator: '_' # default: '-'
+  separator: 'x'
+  extra_chars: ['【','】']

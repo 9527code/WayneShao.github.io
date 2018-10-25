@@ -1,5 +1,5 @@
 /**
- * include.js
+ * include.js | global hexo script.
  *
  * Usage:
  *
@@ -8,14 +8,14 @@
  * Path is relative to your site source directory.
  */
 
-/* global hexo */
-
 'use strict';
 
 var pathFn = require('path');
+/*jshint camelcase: false */
 var fs = require('hexo-fs');
+/*jshint camelcase: true */
 
-function includeRaw(args) {
+function include_raw (args) {
   var path = pathFn.join(hexo.source_dir, args[0]);
 
   return fs.exists(path).then(function(exist) {
@@ -31,6 +31,6 @@ function includeRaw(args) {
       return contents;
     });
   });
-}
+};
 
-hexo.extend.tag.register('include_raw', includeRaw, {ends: false, async: true});
+hexo.extend.tag.register('include_raw', include_raw, {ends: false, async: true});

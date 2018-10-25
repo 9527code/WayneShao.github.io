@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-next",
-  "version": "6.3.0",
+  "version": "6.0.6",
   "description": "Elegant and powerful theme for Hexo",
   "main": "index.js",
   "directories": {
@@ -14,11 +14,13 @@
     "url": "git+https://github.com/theme-next/hexo-theme-next.git"
   },
   "keywords": [
-    "hexo",
-    "theme",
-    "next"
+    "NexT",
+    "Hexo"
   ],
-  "author": "NexT <support@theme-next.org> (https://theme-next.org)",
+  "author": "iissnan <iissnan@gmail.com>",
+  "maintainers": [
+    "Ivan Nginx <ivan.nginx@gmail.com> (https://almostover.ru)"
+    ],
   "license": "AGPL",
   "bugs": {
     "url": "https://github.com/theme-next/hexo-theme-next/issues"

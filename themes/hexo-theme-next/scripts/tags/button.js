@@ -1,16 +1,19 @@
 /**
- * button.js | https://theme-next.org/docs/tag-plugins/button/
+ * button.js | global hexo script.
+ *
+ * Usage:
+ *
+ * {% button /path/to/url/, text, icon [class], title %}
+ * {% btn /path/to/url/, text, icon [class], title %}
  */
-
-/* global hexo */
 
 'use strict';
 
 function postButton(args) {
   args = args.join(' ').split(',');
-  var url   = args[0];
-  var text  = args[1] || '';
-  var icon  = args[2] || '';
+  var url = args[0];
+  var text = args[1] || '';
+  var icon = args[2] || '';
   var title = args[3] || '';
 
   if (!url) {

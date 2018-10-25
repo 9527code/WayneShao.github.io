@@ -8,10 +8,9 @@ categories:
   - 经验之谈
 date: 2018-04-09 19:02:00
 ---
-今天在使用 EFCore + MySQL 搭一个小Demo的时候,在 Migration 环节遇到了这样一个问题。
+　　今天在使用 EFCore + MySQL 搭一个小Demo的时候,在 Migration 环节遇到了这样一个问题。
   > System.TypeLoadException occurred
-  <!--more-->
->HResult=0x80131522
+HResult=0x80131522
 Message=Method 'Clone' in type 'MySQL.Data.EntityFrameworkCore.Infraestructure.Internal.MySQLOptionsExtension' from assembly 'MySql.Data.EntityFrameworkCore, Version=8.0.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' does not have an implementation.
 
   几经排查无果之后求助了Google，发现了一条状况相同的 [Issue](https://github.com/jasonsturges/mysql-dotnet-core/issues/1)

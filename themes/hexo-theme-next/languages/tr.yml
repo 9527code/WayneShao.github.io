@@ -3,51 +3,51 @@ title:
   archive: Arşiv
   category: Kategori
   tag: Etiket
-  schedule: Program
+  schedule: Plan
+author: Yazar
 menu:
   home: Ana Sayfa
   archives: Arşivler
   categories: Kategoriler
   tags: Etiketler
-  about: Hakkımda
-  search: Ara
-  schedule: Program
+  about: Hakkında
+  search: Arama
+  schedule: Plan
   sitemap: Site Haritası
-  commonweal: Hata 404
+  commonweal: Ortak Yarar 404
 sidebar:
   overview: Genel Bakış
   toc: İçindekiler
 post:
-  posted: Yayınlandı
-  edited: Düzenlendi
-  created: Oluşturuldu
-  modified: Değiştirildi
-  edit: Bu gönderiyi düzenle
+  created: Gönderi Oluşturuldu
+  modified: Gönderi Değiştirildi
+  sticky: Sabit
+  posted: Şurada Yayımlandı
   in: İçinde
-  more: daha fazla
+  more: daha
   read_more: Daha fazla oku
   untitled: Başlıksız
-  sticky: Sabit
   toc_empty: Bu gönderinin içindekiler kısmı yok
-  views: Görünümler
-  comments_count: Yorumlar
-  related_posts: İlgili Gönderiler
-  copy_button: Kopyala
-  copy_success: Kopyalandı
-  copy_failure: Kopyalanamadı
+  views: Views
+  comments_count: İnceleme
+  symbols_count: Yazının içerdiği semboller
+  symbols_time: Okuma zamanı
+  total_symbols: İçerilen toplam semboller
+  total_time: Toplam okuma zamanı
+  related_posts: Related Posts
   copyright:
-    author: Gönderiyi yazan
-    link: Gönderi bağlantısı
-    license_title: Telif Hakkı Bildirimi
-    license_content: "Bu blogdaki tüm makaleler aksi belirtilmediği sürece %s altında lisanslıdır."
+    author: Gönderi yazarı
+    link: Gönderi linki
+    license_title: Telif Hakkı Uyarısı
+    license_content: "Bu blogda yer alan yazıların hepsi aksine bir ifade olmadığı sürece %s altında lisanslıdır."
 page:
   totally: Toplamda
   tags: etiketler
 footer:
   powered: "%s tarafından desteklenmektedir"
   theme: Tema
-  total_views: Toplam görüntülenme
-  total_visitors: Toplam Ziyaretçi
+  total_views: Total Views
+  total_visitors: Total Visitors
 counter:
   tag_cloud:
     zero: Etiket yok
@@ -79,20 +79,14 @@ keep_on: Gönderiye devam.
 symbol:
   comma: ", "
   period: ". "
-  colon: ": "
+  colon: ":"
 reward:
   donate: Bağış
-  wechatpay: WeChat Pay
+  wechatpay: WeChat Ödeme
   alipay: Alipay
   bitcoin: Bitcoin
 gitmentbutton: Gitment'ın yorumlarını göster
 accessibility:
-  nav_toggle: Gezinti çubuğunu değiştir
-  prev_page: Önceki sayfa
-  next_page: Sonraki sayfa
-symbols_count_time:
-  count: Makalede sayılan semboller
-  count_total: Sayılan toplan semboller
-  time: Okuma Süresi
-  time_total: Toplmada Okuma Süresi
-  time_minutes: dk.
+  nav_toggle: Toggle navigation bar
+  prev_page: Previous page
+  next_page: Next page

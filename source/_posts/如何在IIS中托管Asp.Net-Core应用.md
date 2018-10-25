@@ -6,7 +6,9 @@ tags:
 abbrlink: 19877
 date: 2018-03-05 01:36:13
 ---
-Asp.Net Core 应用如果需要托管在IIS下，需要为IIS安装 AspNetCoreModule 模块。
+Asp.Net Core 应用如果需要托管在IIS下，需要为IIS[下载](https://www.microsoft.com/net/download/all)安装 AspNetCoreModule 模块。
+
+
 <!--more-->
 下面以最新的.NET Core Runtime 2.1.0-preview1版本为例：
 ## 安装 Server Hosting Installer
