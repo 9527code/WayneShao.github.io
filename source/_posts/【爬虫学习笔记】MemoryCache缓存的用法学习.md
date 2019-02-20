@@ -13,7 +13,7 @@ MemoryCache的使用网上介绍的不多，不过这个是.NET4.0新引入的�
 出于方便考虑，我们将不再实例化新的MemoryCache对象，只对MemoryCache的默认示例Memory.Default进行增删查操作。
 ## 基础操作
 ### 增加
-![](http://p4au3q1y8.bkt.clouddn.com/20180218211417/20180218091804918.png)
+![](http://qiniucdn.wayneshao.com/20180218211417/20180218091804918.png)
 增加缓存需要提供两个参数，CacheItem类表示缓存中的单个缓存项,
 
 构造函数: 
@@ -44,7 +44,7 @@ MemoryCache.Default.Add(item, policy);
 var idea = MemoryCache.Default["习大大"];
 ```
 ### 移除
-![](http://p4au3q1y8.bkt.clouddn.com/20180218211417/20180218092011241.png)
+![](http://qiniucdn.wayneshao.com/20180218211417/20180218092011241.png)
 **参数**
 ***key***:要移除的缓存项的唯一标识符。
 ***regionName***:缓存中的一个添加了缓存项的命名区域。不要为该参数传递值。默认情况下，此参数为null，因为 MemoryCache 类未实现区域。

@@ -9,7 +9,7 @@ date: 2018-02-21 21:25:39
 ---
 [GeoIP® 数据库&服务：业界领先的IP智能](https://www.maxmind.com/zh/geoip2-services-and-databases)，MaxMind GeoIP2 服务能识别互联网用户的地点位置与其他特征，应用广泛，包括个性化定制内容、诈欺检测、广告定向、网站流量分析、执行规定、地理目标定位、地理围栏定位 (geo-fencing)以及数字版权管理。
 <!--more-->
-![](http://p4au3q1y8.bkt.clouddn.com/20180221212532042/20180221093334576.png)
+![](http://qiniucdn.wayneshao.com/20180221212532042/20180221093334576.png)
 * [MaxMind是IP地理定位准确性的行业领导者.](https://blog.maxmind.com/2014/01/31/who-has-the-most-accurate-ip-geolocation-data/)
 * [按照不同国家，比较MaxMind GeoIP2数据服务与数据库的准确性](https://www.maxmind.com/zh/geoip2-city-database-accuracy)。
 

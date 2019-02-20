@@ -69,13 +69,13 @@ Console.WriteLine(c6.GetMsg());
 Console.ReadKey();
 ```
 输出为：
-![](http://p4au3q1y8.bkt.clouddn.com/20180218215235/20180218095803520.png)
+![](http://qiniucdn.wayneshao.com/20180218215235/20180218095803520.png)
 接下来，我们**换用Spring.Net容器来声明对象**
 1. 首先引用dll文件
-![](http://p4au3q1y8.bkt.clouddn.com/20180218215235/20180218095839887.png)
+![](http://qiniucdn.wayneshao.com/20180218215235/20180218095839887.png)
 需要核心库Spring.Core.dll和Spring.Net使用的日志记录组件Common.Logging.dll
 2. 然后我们需要了解当前的程序集名称和命名空间
-![](http://p4au3q1y8.bkt.clouddn.com/20180218215235/20180218095922038.png)
+![](http://qiniucdn.wayneshao.com/20180218215235/20180218095922038.png)
 3. 在项目中新建一个xml文件，命名为services.xml：
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -112,12 +112,12 @@ Console.ReadKey();
 </configuration>
 ```
 运行程序，得到输出结果：
-![](http://p4au3q1y8.bkt.clouddn.com/20180218215235/20180218100404037.png)
+![](http://qiniucdn.wayneshao.com/20180218215235/20180218100404037.png)
 **成功实现IOC**
 ### Spring.Net在ASP.NET MVC中的使用
 方法和在控制台程序中大同小异
 1. 同样，首先要导入dll文件
-![](http://p4au3q1y8.bkt.clouddn.com/20180218215235/20180218100505181.png)
+![](http://qiniucdn.wayneshao.com/20180218215235/20180218100505181.png)
     MVC项目中需要引用的dll文件稍多些，需要五个，除了值钱的两个外，还需要三个Web相关的dll。
 2. 为了便于管理，我们在MVC项目更目录新建Config文件夹来保存配置文件，并在其中新建两个xml文件
 controllers.xml：
@@ -139,7 +139,7 @@ controllers.xml：
 ```
       同样是出于方便管理考虑，我们将控制器和业务类分两个文件来保存，文件中节点的规则与控制台示例中完全相同。
 3. 修改Web.config配置文件
-![](http://p4au3q1y8.bkt.clouddn.com/20180218215235/20180218100703550.png)
+![](http://qiniucdn.wayneshao.com/20180218215235/20180218100703550.png)
     在配置文件的configSections节点中增加如图的sectionGrup节点，configuration节点中增加Spring节点，并在spring节点中的context节点中使用resource节点设置配置文件的路径。
 4. 修改Global文件
 修改根目录的Global.asax文件，将MvcApplication类的父类由HttpApplication更改为SpringMvcApplication。

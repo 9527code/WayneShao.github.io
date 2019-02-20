@@ -12,7 +12,7 @@ date: 2016-09-20 21:04:44
 ——来自百度百科
 <!-- more -->
 当我们将Prim算法用于迷宫生成时，情况有些不同，维基百科中给出了[随机Prim迷宫生成算法(Randomized Prim's algorithm)](https://en.wikipedia.org/wiki/Prim%27s_algorithm)的解释及实现过程：
-![](http://p4au3q1y8.bkt.clouddn.com/20180218224344/20180218104613142.png)
+![](http://qiniucdn.wayneshao.com/20180218224344/20180218104613142.png)
 我们将算法实现部分翻译成中文 
 1. 让迷宫全都是墙.。
 2. 选一个格，作为迷宫的通路，然后把它的邻墙放入列表.。

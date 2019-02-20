@@ -17,16 +17,16 @@ date: 2018-03-02 11:35:00
 5. 中文标点智能预测
 6. 支持垂直领域和应用级听写
 
-![](http://p4au3q1y8.bkt.clouddn.com/20180302113535116/20180302114420073.png)
+![](http://qiniucdn.wayneshao.com/20180302113535116/20180302114420073.png)
 <!--more-->
 ## 获得APPID和调用Dll
 在讯飞开放平台的[控制台](http://console.xfyun.cn/app/myapp)新建一个应用，平台选择Windows，新建完成后为应用添加语音听写服务。
-![](http://p4au3q1y8.bkt.clouddn.com/20180302113535116/20180302114712451.png)
+![](http://qiniucdn.wayneshao.com/20180302113535116/20180302114712451.png)
 下载SDK
-![](http://p4au3q1y8.bkt.clouddn.com/20180302113535116/20180302114758665.png)
+![](http://qiniucdn.wayneshao.com/20180302113535116/20180302114758665.png)
 
 解压出你下载的压缩包bin目录中的msc.dll等待使用
-![](http://p4au3q1y8.bkt.clouddn.com/20180302113535116/20180302114914214.png)
+![](http://qiniucdn.wayneshao.com/20180302113535116/20180302114914214.png)
 **注意：下面步骤里的Dll必须使用自行下载的版本，此Dll并不通用**
 ## Coding
 ### 识别文件实现

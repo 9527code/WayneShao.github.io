@@ -14,11 +14,11 @@ Asp.Net Core 应用如果需要托管在IIS下，需要为IIS[下载](https://ww
 ## 安装 Server Hosting Installer
 首先访问微软的[.Net下载中心](https://www.microsoft.com/net/download/all)
 ，并找到我们要下载的版本。
-![](http://p4au3q1y8.bkt.clouddn.com/20180305013606660/20180305014343191.png)
+![](http://qiniucdn.wayneshao.com/20180305013606660/20180305014343191.png)
 点击进入详情页后，找到 Windows 分类下的 **Server Hosting Installer** 链接，并点击下载
-![](http://p4au3q1y8.bkt.clouddn.com/20180305013606660/20180305014516178.png)
+![](http://qiniucdn.wayneshao.com/20180305013606660/20180305014516178.png)
 下载安装完成以后即可在IIS的模块中找到托管.Net Core 应用所需的 AspNetCoreModule 模块。
-![](http://p4au3q1y8.bkt.clouddn.com/20180305013606660/20180305014647982.png)
+![](http://qiniucdn.wayneshao.com/20180305013606660/20180305014647982.png)
 
 ## 发布程序
 ```shell

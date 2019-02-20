@@ -14,7 +14,7 @@ date: 2018-03-07 09:36:14
 ## 迅雷
 ### 直接调用迅雷
 1.  安装迅雷后可以再引用的com组件中找到名为 “ThunderAgent 1.0 Type Library” 的com组件，勾选引用之后，把类库属性中的嵌入互操作类型修改为false。
-![](http://p4au3q1y8.bkt.clouddn.com/20180307172636630/20180307054659587.png)
+![](http://qiniucdn.wayneshao.com/20180307172636630/20180307054659587.png)
 2. 使用代码调用AgentLib直接在迅雷中增加新任务
 ```csharp
 new ThunderAgentLib.AgentClass().AddTask("http://s1.static.haoke258.info/attach_2/2018-1-30-5ZD6R0BZZ.rar");
@@ -69,7 +69,7 @@ namespace ThunderSdkDemo
 1. 下载 [IDMCOMAPI.zip](http://www.internetdownloadmanager.com/support/download/IDMCOMAPI.zip)。
 2. 解压 IDManTypeInfo.tlb 文件到任意位置。
 3. 打开 Visual Studio安装时附带的命令行工具。（任选一个即可，推荐第一个）
-![](http://p4au3q1y8.bkt.clouddn.com/20180308000415303/20180308121452182.png)
+![](http://qiniucdn.wayneshao.com/20180308000415303/20180308121452182.png)
 4. 使用 类型库导入程序 (Tlbimp.exe)将tlb文件转换成dll文件。
 ```shell
 TlbImp IDManTypeInfo.tlb
@@ -80,7 +80,7 @@ TlbImp IDManTypeInfo.tlb
     >Type library imported to ![IDManLib.dll]
 This will create an IDManLib.dll
 
-如果懒得完成上面的步骤，也可以直接下载我已经导入好的文件[IDManLib.7z](http://p4au3q1y8.bkt.clouddn.com/20180308000415303/IDManLib.7z)
+如果懒得完成上面的步骤，也可以直接下载我已经导入好的文件[IDManLib.7z](http://qiniucdn.wayneshao.com/20180308000415303/IDManLib.7z)
 ## 引用DLL文件
 手动选择 IDManLib.dll 文件进行引用，引用后同样也要把类库属性中的嵌入互操作类型修改为false，编译平台最好选择x86。 
 ## 调用方法

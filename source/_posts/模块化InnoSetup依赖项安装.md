@@ -12,14 +12,14 @@ date: 2016-11-23 11:07:33
 
 源文件需要注册登录CodeProject才能下载
 <!-- more -->
-![](http://p4au3q1y8.bkt.clouddn.com/20180218232333/20180218112438669.png)
-![](http://p4au3q1y8.bkt.clouddn.com/20180218232333/20180218112442373.png)
+![](http://qiniucdn.wayneshao.com/20180218232333/20180218112438669.png)
+![](http://qiniucdn.wayneshao.com/20180218232333/20180218112442373.png)
 
 **说明:
 通过添加模块化innosetup脚本来自动下载和安装各种依赖项 如.NET Framework 、VC++运行环境等。**
 
 源代码是模块化的，结构如下：
-![](http://p4au3q1y8.bkt.clouddn.com/20180218232333/20180218112524045.png)
+![](http://qiniucdn.wayneshao.com/20180218232333/20180218112524045.png)
 * setup.iss - 包含基本设置，其中包含所需的模块（产品）。 
    你需要把所需的模块在顶部使用#include命令包含在源代码中,例如：
    #include "scripts\products\dotnetfx11.iss"
@@ -75,8 +75,8 @@ date: 2016-11-23 11:07:33
 你很可能需要调整setup.iss，以适应不同Windows版本所需的依赖项。
 
 如果依赖项没有安装，安装过程会检查相关依赖项的安装文件是否存在于.\MyProgramDependencies.文件夹下。如果不存在那么程序将会自动下载。
-![](http://p4au3q1y8.bkt.clouddn.com/20180218232333/20180218112911329.png)
-![](http://p4au3q1y8.bkt.clouddn.com/20180218232333/20180218112917754.png)
+![](http://qiniucdn.wayneshao.com/20180218232333/20180218112911329.png)
+![](http://qiniucdn.wayneshao.com/20180218232333/20180218112917754.png)
 用于脚本的应用程序包括：
 
 * [Inno Setup](http://www.jrsoftware.org/isinfo.php) - (版本5.5.5)

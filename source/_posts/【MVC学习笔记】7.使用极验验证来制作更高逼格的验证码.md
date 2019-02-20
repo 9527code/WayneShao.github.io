@@ -13,9 +13,9 @@ date: 2016-09-20 20:15:16
 极验官方提供了[C#的SDK和Demo](https://github.com/GeeTeam/gt-csharp-sdk)供开发者参考，不过是Webform版本的，可读性不是很高，而现在使用Webform进行网站开发的也基本消失了，我将在官方Webform代码的基础上，将其用在ASP.NET MVC程序中。
 ## 注册极验
 到极验官网注册账号之后进入后台管理界面，点击添加验证
-![](http://p4au3q1y8.bkt.clouddn.com/20180218223716/20180218103931147.png)
+![](http://qiniucdn.wayneshao.com/20180218223716/20180218103931147.png)
 添加后我们可以得到ID和KEY
-![](http://p4au3q1y8.bkt.clouddn.com/20180218223716/20180218103949448.png)
+![](http://qiniucdn.wayneshao.com/20180218223716/20180218103949448.png)
 ## 完成验证逻辑
 ### 首先我们需要引入官方的[Geetestlib类](https://github.com/GeeTeam/gt-csharp-sdk/blob/master/src/GeetestSDK/GeetestSDK/GeetestLib.cs)
 ```csharp

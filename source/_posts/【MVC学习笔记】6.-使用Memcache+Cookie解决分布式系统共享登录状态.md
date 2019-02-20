@@ -16,11 +16,11 @@ Memcache服务器本身就是一个Socket服务端，内部数据采用键值对
 1. 下载安装[Memcache](http://code.jellycan.com/Memcache/)（Windows平台）
     （1）将程序解压到磁盘任意位置
     （2）进入cmd窗口，运行Memcached.exe -d install安装服务，安装后打开服务窗口查看服务是否安装成功。
-![](http://p4au3q1y8.bkt.clouddn.com/20180218222028/20180218102319007.png)
+![](http://qiniucdn.wayneshao.com/20180218222028/20180218102319007.png)
     （3）直接在服务管理中启动服务，或者使用cmd命令 net start "Memcache Server"
     （4）使用Telnet连接到Memcache控制台，验证服务是否正常 telnet 127.0.0.1 11211
     （5）使用stats指令查看当前Memcache服务器状态。
-     ![](http://p4au3q1y8.bkt.clouddn.com/20180218222028/20180218102458126.png)
+     ![](http://qiniucdn.wayneshao.com/20180218222028/20180218102458126.png)
 2. 程序中的用法
     （1）在程序中添加 Memcached.ClientLibrary.dll 的引用
     （2）C#中操作Memcache的代码示例

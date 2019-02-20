@@ -83,4 +83,4 @@ public static int ToInt32(this string s, int def = default(int))
 ```
 按照上面的思路,我们可以打包一个包含各种常用类型转换的类,写程序的时候只要直接加入这个类,就可以方便地进行各种进制转换了.
 
-下面提供一个自用的Convert类[Convert.zip](http://p4au3q1y8.bkt.clouddn.com/Convert.zip)
+下面提供一个自用的Convert类[Convert.zip](http://qiniucdn.wayneshao.com/Convert.zip)

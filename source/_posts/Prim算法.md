@@ -26,17 +26,17 @@ V = V + v2
 最终E中的边是一棵最小生成树， V包含了全部节点。
 ## 执行过程
 以下图为例介绍Prim算法的执行过程。
-![](http://p4au3q1y8.bkt.clouddn.com/20180228211614459/20180228092129488.png)
+![](http://qiniucdn.wayneshao.com/20180228211614459/20180228092129488.png)
 Prim算法的过程从A开始 V = {A}, E = {}
-![](http://p4au3q1y8.bkt.clouddn.com/20180228211614459/20180228092216396.png)
+![](http://qiniucdn.wayneshao.com/20180228211614459/20180228092216396.png)
 选中边AF , V = {A, F}, E = {(A,F)} 
-![](http://p4au3q1y8.bkt.clouddn.com/20180228211614459/20180228092234421.png)
+![](http://qiniucdn.wayneshao.com/20180228211614459/20180228092234421.png)
 选中边FB, V = {A, F, B}, E = {(A,F), (F,B)}
-![](http://p4au3q1y8.bkt.clouddn.com/20180228211614459/20180228092252771.png)
+![](http://qiniucdn.wayneshao.com/20180228211614459/20180228092252771.png)
 选中边BD, V = {A, B, F, D},   E = {(A,F), (F,B), (B,D)}
-![](http://p4au3q1y8.bkt.clouddn.com/20180228211614459/20180228092305430.png)
+![](http://qiniucdn.wayneshao.com/20180228211614459/20180228092305430.png)
 选中边DE, V = {A, B, F, D, E},   E = {(A,F), (F,B), (B,D), (D,E)}
-![](http://p4au3q1y8.bkt.clouddn.com/20180228211614459/20180228092428701.png)
+![](http://qiniucdn.wayneshao.com/20180228211614459/20180228092428701.png)
 选中边BC, V = {A, B, F, D, E, c},   E = {(A,F), (F,B), (B,D), (D,E), (B,C)}, 算法结束。
 ## 算法证明
 Prim算法的证明：假设Prim算法得到一棵树P，有一棵最小生成树T。假设P和T不同，我们假设Prim算法进行到第(K – 1)步时选择的边都在T中，这时Prim算法的树是P’, 第K步时,Prim算法选择了一条边e = (u, v)不在T中。假设u在P’中，而v不在。

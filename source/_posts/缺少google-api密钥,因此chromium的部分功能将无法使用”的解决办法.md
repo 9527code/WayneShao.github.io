@@ -14,5 +14,5 @@ setx GOOGLE_DEFAULT_CLIENT_ID "no"
 setx GOOGLE_DEFAULT_CLIENT_SECRET "no"
 ```
 
-![](http://p4au3q1y8.bkt.clouddn.com/20180218230720/20180218110847654.png)
+![](http://qiniucdn.wayneshao.com/20180218230720/20180218110847654.png)
 当然,这样只是可以去掉chromium开启时的提示,如果需要使用Google API 服务,还是推荐去谷歌申请,然后重新setx为真实api key。

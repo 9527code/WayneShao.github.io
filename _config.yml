@@ -90,6 +90,7 @@ deploy:
     github: git@github.com:WayneShao/WayneShao.github.io.git
     coding: git@git.coding.net:wayneshao/wayneshao.coding.me.git
   branch: master
+- type: baidu_url_submitter
 # - type: ftpsync
 #   host: 111.230.26.69 # 远程主机的地址
 #   user: blog # 使用者名称
@@ -165,3 +166,10 @@ feed:
   content_limit_delim: ' '
   order_by: -date
 
+
+# 百度链接自动提交
+baidu_url_submit:
+  count: 6 # 提交最新的链接数量
+  host: blog.wayneshao.com # 在百度站长平台中注册的域名
+  token: QC4UsjFeGRPTDBRe # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里
