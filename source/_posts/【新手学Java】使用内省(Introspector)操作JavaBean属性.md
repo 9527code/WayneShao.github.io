@@ -3,6 +3,11 @@ title: 【新手学Java】使用内省(Introspector)操作JavaBean属性
 abbrlink: 50715
 date: 2016-10-03 23:15:30
 tags:
+  - Java
+  - Introspector
+  - javabean
+categories:
+  - 学习笔记
 ---
 使用内省(Introspector)操作
 <!-- more -->

@@ -4,7 +4,7 @@
 
 # <div align="center"><a title="Go to homepage" href="https://theme-next.org"><img align="center" width="56" height="56" src="https://raw.githubusercontent.com/theme-next/hexo-theme-next/master/source/images/logo.svg?sanitize=true"></a> e x T</div>
 
-First of all, thanks for taking the time to contribute and help make our project even better than it is today! The following is a set of guidelines for contributing to [Theme-Next](https://github.com/theme-next) and its libs submodules. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+First of all, thanks for taking your time to contribute and help make our project even better than it is today! The following is a set of guidelines for contributing to [Theme-Next](https://github.com/theme-next) and its libs submodules. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 ## Table Of Contents
 
@@ -14,11 +14,13 @@ First of all, thanks for taking the time to contribute and help make our project
   * [Reporting Bugs](#reporting-bugs)
   * [Suggesting Enhancements](#suggesting-enhancements)
   * [Submitting a Pull Request](#submitting-a-pull-request)
+  * [Creating Releases](#creating-releases)
 
-[Style Guides](#style-guides)
+[Guides](#guides)
 
   * [Coding Rules](#coding-rules)
   * [Coding Standards](#coding-standards)
+  * [Labels Rules](#labels-rules)
   * [Commit Messages Rules](#commit-messages-rules)
 
 <a name="how-can-i-contribute"></a>
@@ -95,7 +97,22 @@ Following these guidelines helps maintainers and the community understand your p
 * Fill in [the required template](PULL_REQUEST_TEMPLATE.md) as many details as possible.
 * All features or bug fixes must be tested in all schemes. And provide specific examples to demonstrate the pull request. Include links to files (screenshots or GIFs) or live demo.
 
-## Style Guides
+### Creating Releases
+
+Releases are a great way to ship projects on GitHub to your users.
+
+1. On GitHub, navigate to the main page of the repository. Under your repository name, click **Releases**. Click **Draft a new release**.
+2. Type a version number for your release. Versions are based on [Git tags](https://git-scm.com/book/en/Git-Basics-Tagging). We recommend naming tags that fit within [About Major and Minor NexT versions](https://github.com/theme-next/hexo-theme-next/issues/187).
+3. Select a branch that contains the project you want to release. Usually, you'll want to release against your `master` branch, unless you're releasing beta software.
+4. Type a title and description that describes your release.
+    - Use the version as the title.
+    - The types of changes include **Breaking Changes**, **Updates**, **Features**, and **Bugfixes**. In the section of Breaking Changes, use multiple secondary headings, and use item list in other sections.
+    - Use the passive tense and subject-less sentences.
+    - All changes must be documented in release notes. If commits happen without pull request (minimal changes), just add this commit ID into release notes. If commits happen within pull request alreay, just add the related pull request ID including all possible commits.
+5. If you'd like to include binary files along with your release, such as compiled programs, drag and drop or select files manually in the binaries box.
+6. If the release is unstable, select **This is a pre-release** to notify users that it's not ready for production. If you're ready to publicize your release, click **Publish release**. Otherwise, click **Save draft** to work on it later.
+
+## Guides
 
 ### Coding Rules
 
@@ -103,22 +120,84 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 ### Coding Standards
 
+To be continued.
+
+### Labels Rules
+
+We use "labels" in the issue tracker to help classify pull requests and issues. Using labels enables maintainers and users to quickly find issues they should look into, either because they experience them, or because it meets their area of expertise.
+
+If you are unsure what a label is about or which labels you should apply to a PR or issue, look no further!
+
+Issues related: `types`+`contents`+`results`
+
+- By types
+    - `Irrelevant`: An irrelevant issue for Next
+    - `Duplicate`: An issue which had been mentioned
+    - `Bug`: A detected bug that needs to be confirmed
+    - `Feature Request`: An issue that wants a new feature
+    - `High Priority`: A detected bugs or misprints with high priority
+    - `Low Priority`: A detected bugs or misprints with low priority
+    - `Non English`: Requires the attention of a multi-lingual maintainer
+    - `Discussion`: An issue that needs to be discussed
+    - `Question`: An issue about questions
+    - `Backlog`: An issue that is to be completed and later compensated
+    - `Meta`: Denoting a change of usage conditions
+- By contents
+    - `Roadmap`: An issue about future development
+    - `Hexo`: An issue related to Hexo
+    - `Scheme [1] - Mist`: An issue related to Scheme Mist
+    - `Scheme [2] - Muse`: An issue related to Scheme Muse
+    - `Scheme [3] - Pisces`: An issue related to Scheme Pisces
+    - `Scheme [4] - Gemini`: An issue related to Scheme Gemini
+    - `3rd Party Service`: An issue related to 3rd party service
+    - `Docs`: Need to add instruction document
+    - `Configurations`: An issue related to configurations
+    - `CSS`: An issue related to CSS
+    - `Custom`: An issue related to custom things
+    - `Optimization`: An issue that needs to be optimized
+- By results
+    - `Wontfix`: An issue that will not to be fixed
+    - `Need More Info`: Need more information for solving the issue
+    - `Need Verify`: Need confirmation from the developers or user about the bug or solution
+    - `Can't Reproduce`: An issue that can’t be reproduced
+    - `Verified`: An issue that has been verified
+    - `Help Wanted`: An issue that needs help
+    - `Wait for Answer`: An issue that needs to be answered by the developers or user
+    - `Resolved Maybe`: An issue that has been resolved maybe
+    - `Solved`: An issue that has been solved
+    - `Stale`: This issue has been automatically marked as stale because lack of recent activity
+
+Pull requests related:
+
+- `Breaking Change`: A Pull requests that makes breaking change
+- `Bugfix`: A Pull requests that fixes the related bug
+- `Docs`: A Pull requests that Instruction document has been added
+- `New Feature`: A Pull requests that provides a new feature
+- `Feature`: A Pull requests that provides an option or addition to existing feature
+- `Configurations`: A Pull requests related to configurations
+- `Optimization`: A Pull requests that optimizates the Next
+- `i18n`: A Pull requests that makes new languages translation
+- `Performance`: A Pull requests that improves the performance
+- `Discussion`: A Pull requests that needs to be discussed
+- `v6.x`: A Pull requests that bugfixes and some optimizations related to old NexT version 6
+- `v7.x`: A Pull requests that bugfixes and some optimizations, related to old NexT version 7
+
 ### Commit Messages Rules
 
 We have very precise rules over how our git commit messages can be formatted. Each commit message consists of a `type` and a `subject`. This leads to more
 readable messages that are easy to follow when looking through the project history.
 
 - `type` describes the meaning of this commit including but not limited to the following items, and capitalize the first letter.
-    * `build`: Changes that affect the build system or external dependencies
-    * `ci`: Changes to our CI configuration files and scripts
-    * `docs`: Documentation only changes
-    * `feat`: A new feature
-    * `fix`: A bug fix
-    * `perf`: A code change that improves performance
-    * `refactor`: A code change that neither fixes a bug nor adds a feature
-    * `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-    * `revert`: Revert some existing commits
-    * `release`: Commit a release for a conventional changelog project
+    * `Build`: Changes that affect the build system or external dependencies
+    * `Ci`: Changes to our CI configuration files and scripts
+    * `Docs`: Documentation only changes
+    * `Feat`: A new feature
+    * `Fix`: A bug fix
+    * `Perf`: A code change that improves performance
+    * `Refactor`: A code change that neither fixes a bug nor adds a feature
+    * `Style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+    * `Revert`: Revert some existing commits
+    * `Release`: Commit a release for a conventional changelog project
 - The `subject` contains a succinct description of the change, like `Update code highlighting in readme.md`.
-    * no dot (.) at the end.
-    * use the imperative, present tense: "change" not "changed" nor "changes".
+    * No dot (.) at the end.
+    * Use the imperative, present tense: "change" not "changed" nor "changes".

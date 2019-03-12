@@ -4,6 +4,8 @@ tags:
   - 软件心得
 abbrlink: 35658
 date: 2016-09-21 13:08:58
+categories:
+  - 踩坑笔记
 ---
 最近DotNetCore更新到了1.0.1，Azure tools也更新到了2.9.5，尝试更新时发现，DotNetCore更新失败，提示：0x80072f8a未指定的错误，而Azure Tools中也包含了DotNetCore的更新，0x80072f8a问题，导致两个软件都不能成功地完成更新。
 

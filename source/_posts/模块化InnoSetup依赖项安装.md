@@ -5,6 +5,8 @@ tags:
   - 安装包
 abbrlink: 24425
 date: 2016-11-23 11:07:33
+categories:
+  - 踩坑笔记
 ---
 原文在这里:http://www.codeproject.com/Articles/20868/NET-Framework-Installer-for-InnoSetup
 

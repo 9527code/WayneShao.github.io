@@ -5,6 +5,8 @@ tags:
   - UrlFilter
 abbrlink: 27677
 date: 2016-09-26 20:50:45
+categories:
+  - 学习笔记
 ---
 Url Filter则是对提取出来的URL再进行一次筛选。不同的应用筛选的标准是不一样的，比如对于baidu/google的搜索，一般不进行筛选，但是对于垂直搜索或者定向抓取的应用，那么它可能只需要满足某个条件的url，比如不需要图片的url，比如只需要某个特定网站的url等等。Url Filter是一个和应用密切相关的模块。
 ```csharp

@@ -12,7 +12,7 @@ timezone: Asia/Hong_Kong
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.wayneshao.com
+url: https://blog.wayneshao.com
 root: /
 permalink: :title.html
 permalink_defaults:
@@ -76,6 +76,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+#theme: hexo-theme-next
 theme: hexo-theme-next
 stylus:
   compress: true
@@ -111,7 +112,7 @@ admin:
       AccessKey: '62PYiYOaxqbfOvTPh7Rcqt9LemRGidmTv6998hfF'
       SecretKey: 'p3Z79LcfabWL11JmTmXZs18WZSt9EcuP8ntNhcnq'
       BucketName: 'hexoblogimages'
-      bucketHost: 'http://qiniucdn.wayneshao.com'
+      bucketHost: 'https://qiniucdn.wayneshao.com'
 
 archive_generator:
   per_page: 10 ##归档页面默认20篇文章标题
@@ -173,3 +174,20 @@ baidu_url_submit:
   host: blog.wayneshao.com # 在百度站长平台中注册的域名
   token: QC4UsjFeGRPTDBRe # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+
+markdown_it_plus:
+    highlight: true
+    html: true
+    xhtmlOut: true
+    breaks: true
+    langPrefix:
+    linkify: true
+    typographer:
+    quotes: “”‘’
+    pre_class: highlight

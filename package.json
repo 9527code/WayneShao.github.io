@@ -25,10 +25,14 @@
     "hexo-migrator-cnblogs": "0.0.4",
     "hexo-neat": "^1.0.4",
     "hexo-permalink-invalid-char": "^1.0.0",
+    "hexo-related-popular-posts": "^3.0.3",
     "hexo-renderer-ejs": "^0.3.0",
+    "hexo-renderer-markdown-it-plus": "^1.0.4",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
+    "hexo-symbols-count-time": "^0.4.4",
+    "hexo-tag-cloud": "^2.1.0",
     "hexo-wordcount": "^3.0.2"
   }
 }

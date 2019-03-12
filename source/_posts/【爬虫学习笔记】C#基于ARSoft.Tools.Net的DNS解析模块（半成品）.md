@@ -7,6 +7,8 @@ tags:
   - DNS
 abbrlink: 61444
 date: 2016-09-11 01:01:24
+categories:
+  - 学习笔记
 ---
 最近在做爬虫的作业，今天学习的内容是关于DNS解析模块的制作的。使用的库为ARSoft.Tools.Net，它是一个非常强大的开源DNS控件库，包含.Net SPF validation, SenderID validation以及DNS Client、DNS Server接口。使用该接口可轻松实现DNS客户请求端及服务器解析端。
 <!-- more -->

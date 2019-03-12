@@ -6,6 +6,8 @@ tags:
   - javabean
 abbrlink: 33316
 date: 2016-10-03 23:28:21
+categories:
+  - 学习笔记
 ---
 使用beanUtils控制javabean
 <!-- more -->

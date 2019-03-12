@@ -7,6 +7,8 @@ tags:
 mathjax: true
 abbrlink: 34469
 date: 2018-02-24 17:25:50
+categories:
+  - 51NOD刷题
 ---
 [**1305 Pairwise Sum and Divide  **](http://www.51nod.com/onlineJudge/questionCode.html#!problemId=1305)
 
