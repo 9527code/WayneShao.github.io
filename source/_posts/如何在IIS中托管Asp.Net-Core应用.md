@@ -5,6 +5,8 @@ tags:
   - IIS
 abbrlink: 19877
 date: 2018-03-05 01:36:13
+categories:
+  - 踩坑笔记
 ---
 Asp.Net Core 应用如果需要托管在IIS下，需要为IIS[下载](https://www.microsoft.com/net/download/all)安装 AspNetCoreModule 模块。
 

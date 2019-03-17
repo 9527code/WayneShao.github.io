@@ -4,6 +4,8 @@ tags:
   - MVC
 abbrlink: 21959
 date: 2016-09-16 18:14:43
+categories:
+  - 学习笔记
 ---
  新人刚开始学习ASP.NET MVC，若有不足之处希望能得到您的指点，不胜感激！
 <!-- more -->

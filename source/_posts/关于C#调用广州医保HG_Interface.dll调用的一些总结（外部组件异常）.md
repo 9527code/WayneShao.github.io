@@ -7,6 +7,8 @@ tags:
   - 'C#'
 abbrlink: 57100
 date: 2017-01-21 10:01:06
+categories:
+  - 踩坑笔记
 ---
  开始做的时候也遇到了奇葩的情况、创智提供的dll只能在有UI的Winform、WPF上使用，WebForm、WPF、WebService完全没办法使用，Console在加上了[STAThread]的线程Attribute之后也可以成功调用，推测和dll使用MFC编写有关、但是各种引入MFC的dll均无果，一筹莫展之际把问题提到了交流群里，吾乐吧的牛总给出了可行的解决方案----使用WCF来调用。
 

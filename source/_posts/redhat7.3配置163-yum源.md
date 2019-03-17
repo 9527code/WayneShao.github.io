@@ -5,6 +5,8 @@ tags:
   - yum源
 abbrlink: 12206
 date: 2017-01-15 11:53:25
+categories:
+  - 踩坑笔记
 ---
 redhat 的更新包只对注册的用户生效，所以我们需要自己手动更改成CentOS 的更新包，CentOS几乎和redhat是一样的，所以无需担心软件包是否可安装，安装之后是否有问题。
 <!-- more -->

@@ -6,6 +6,8 @@ tags:
   - ScrapySharp
 abbrlink: 31517
 date: 2016-09-10 01:16:42
+categories:
+  - 学习笔记
 ---
 最近因为一个作业需要完成CNKI爬虫，研究爬虫架构的时候发现了这个疑似移植于Python的著名开源爬虫框架Scrapy的ScrapySharp，然而在网上寻找之后只发现了这个[F#的Demo](http://blog.csdn.net/hadstj/article/details/18891227)，就使用原文中示例的网站写了这个C#版本的代码。
 <!-- more -->

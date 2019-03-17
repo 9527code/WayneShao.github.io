@@ -5,9 +5,10 @@ tags:
   - TTS
   - NAudio
   - 讯飞语音识别
-categories: []
 abbrlink: 43271
 date: 2018-03-02 11:35:00
+categories:
+  - 踩坑笔记
 ---
 [讯飞语音识别](http://www.xfyun.cn/services/voicedictation)官方号称具有以下六个优势：
 1. 超过95%的准确率

@@ -1,3 +1,4 @@
+---
 title: EFCore MySQL System.TypeLoadException occurred 问题解决
 author: 玮仔Wayne
 abbrlink: 11533

@@ -5,6 +5,8 @@ tags:
   - ScrapySharp
 abbrlink: 41785
 date: 2016-09-13 00:26:46
+categories:
+  - 学习笔记
 ---
 为了便于使用及日后的扩展，将Scrapy简单封装为了Requester。
 <!-- more -->

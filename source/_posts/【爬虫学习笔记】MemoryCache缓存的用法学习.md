@@ -5,6 +5,8 @@ tags:
   - 缓存
 abbrlink: 30836
 date: 2016-09-11 13:43:17
+categories:
+  - 学习笔记
 ---
 在完成了DNS解析模块之后，我意识到了DNS缓存机制也很有必要。在Redis，Memcache，和.Net自带的Cache之间,考虑到部署问题，最终选择了后者，之前在学习Web及开发的过程中用过System.Web.Caching.Cache这个类库，但是这次的爬虫程序我打算部署为桌面软件，所以选用了System.Runtime.Caching.MemoryCache（后期如有必要也会加入System.Web.Caching.Cache来适配Web端程序）。
 

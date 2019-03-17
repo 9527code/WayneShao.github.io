@@ -6,6 +6,8 @@ tags:
   - 爬虫
 abbrlink: 2316
 date: 2018-02-19 21:45:56
+categories:
+  - 踩坑笔记
 ---
 可以通过http协议进行get请求来获得当前IP及归属地信息。
 <!--more-->

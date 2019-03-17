@@ -4,6 +4,8 @@ tags:
   - 软件心得
 abbrlink: 37840
 date: 2016-10-01 14:27:20
+categories:
+  - 踩坑笔记
 ---
  使用Chromium时会遇到 “缺少google api密钥,因此chromium的部分功能将无法使用”提示，google了一下 setx Google_API_KEY 和 chromium portable google api keys are missing 找到了解决办法。
  <!-- more -->

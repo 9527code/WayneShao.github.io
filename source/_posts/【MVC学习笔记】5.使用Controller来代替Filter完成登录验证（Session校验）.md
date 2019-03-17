@@ -5,6 +5,8 @@ tags:
   - 登录验证
 abbrlink: 21523
 date: 2016-09-17 10:16:24
+categories:
+  - 学习笔记
 ---
 之前的学习中，在对Session校验完成登录验证时，通常使用Filter来处理，方法类似与前文的错误日志过滤，即新建Filter类继承ActionFilterAttribute类，重写OnActionExecuting方法，之后直接在需要验证的Action前加上Filter标记即可。
 <!-- more -->

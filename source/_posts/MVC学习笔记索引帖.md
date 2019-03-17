@@ -5,6 +5,8 @@ tags:
   - 索引
 abbrlink: 375
 date: 2016-09-23 21:10:36
+categories:
+  - 学习笔记
 ---
 # MVC学习笔记索引帖
 <!-- more -->

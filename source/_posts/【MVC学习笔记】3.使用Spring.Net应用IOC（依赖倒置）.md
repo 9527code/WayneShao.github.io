@@ -6,6 +6,8 @@ tags:
   - IOC
 abbrlink: 63049
 date: 2016-09-16 20:39:35
+categories:
+  - 学习笔记
 ---
 本篇我们将使用Spring.Net进行依赖导致。
 <!-- more -->
