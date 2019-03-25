@@ -2,7 +2,7 @@
 title: .Net 使用GeoIP2获取IP的地理位置信息
 tags:
   - GeoIP2
-  - .Net
+  - .NET
   - IP
 abbrlink: 20420
 date: 2018-02-21 21:25:39
