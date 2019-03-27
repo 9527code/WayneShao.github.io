@@ -37,7 +37,7 @@ GeoIP 分为商业版和免费版，免费版比商业版精度差了许多，�
 
 ### GeoLite2 开源数据库
 #### 数据库
-[GeoLite2数据库](https://dev.maxmind.com/zh-hans/geoip/geoip2/geolite2-开源数据库/)是GeoIP2的免费版，其准确率稍低于付费版。
+[GeoLite2数据库](https://dev.maxmind.com/geoip/geoip2/geolite2/)是 GeoLite 数据库的开源版，GeoIP2的免费版，准确率稍低于付费版，其前身 GeoLite 现行数据库已[于 2019年1月2日 不再提供服务](https://support.maxmind.com/geolite-legacy-discontinuation-notice/))
 #### 技术支持
 MaxMind 不为免费数据库提供技术支持。如果您有问题请前往[stackoverflow’s GeoIP问题以及解答。](http://stackoverflow.com/questions/tagged/geoip)
 #### 许可证
@@ -50,10 +50,11 @@ GeoLite2使用的是开源许可证：[Creative Commons Attribution-ShareAlike 3
 
 #### 下载
 
-| 数据库 | 	[MaxMind DB](http://maxmind.github.io/MaxMind-DB/) 二进制格式, 压缩  | [CSV 格式](https://dev.maxmind.com/geoip/geoip2/geoip2-city-country-csv-databases/), 压缩 |
+| 数据库 | 	[MaxMind DB](https://maxmind.github.io/MaxMind-DB/) 二进制格式, 压缩  | [CSV 格式](https://dev.maxmind.com/geoip/geoip2/geoip2-city-country-csv-databases/), 压缩 |
 |:------------:|:---------------:|:-----:|
-| GeoLite2 城市 | 	[Download](http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz) ([md5 校验](http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.md5)) | 	[Download](http://geolite.maxmind.com/download/geoip/database/GeoLite2-City-CSV.zip) ([md5 校验](http://geolite.maxmind.com/download/geoip/database/GeoLite2-City-CSV.zip.md5))|
-| GeoLite2 国家 | 	[Download](http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz) ([md5 校验](http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.md5)) | 	[Download](http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip) ([md5 校验](http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip.md5)) |
+| GeoLite2 城市 | 	[Download](https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz) ([md5 校验](https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz.md5)) | 	[Download](https://geolite.maxmind.com/download/geoip/database/GeoLite2-City-CSV.zip) ([md5 校验](https://geolite.maxmind.com/download/geoip/database/GeoLite2-City-CSV.zip.md5))|
+| GeoLite2 国家 | 	[Download](https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz) ([md5 校验](https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz.md5)) | 	[Download](https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip) ([md5 校验](https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip.md5)) |
+| GeoLite2  ASN（[自治系统](https://zh.wikipedia.org/zh-cn/%E8%87%AA%E6%B2%BB%E7%B3%BB%E7%BB%9F)） | 	[Download](https://geolite.maxmind.com/download/geoip/database/GeoLite2-ASN.tar.gz) ([md5 校验](https://geolite.maxmind.com/download/geoip/database/GeoLite2-ASN.tar.gz.md5)) | 	[Download](https://geolite.maxmind.com/download/geoip/database/GeoLite2-ASN-CSV.zip) ([md5 校验](https://geolite.maxmind.com/download/geoip/database/GeoLite2-ASN-CSV.zip.md5)) |
 
 #### 更新数据库
 你可以使用 [GeoIP 更新](https://dev.maxmind.com/zh-hans/geoip/geoipupdate/)来自动更新您的数据库。
