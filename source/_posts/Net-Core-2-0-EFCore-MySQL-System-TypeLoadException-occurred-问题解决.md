@@ -6,7 +6,7 @@ tags:
   - EFCore
   - MySQL
 categories:
-  - 经验之谈
+  - 踩坑笔记
 date: 2018-04-09 19:02:00
 ---
 　　今天在使用 EFCore + MySQL 搭一个小Demo的时候,在 Migration 环节遇到了这样一个问题。

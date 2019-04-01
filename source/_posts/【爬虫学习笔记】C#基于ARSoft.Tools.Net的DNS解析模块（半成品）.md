@@ -2,7 +2,6 @@
 title: 【爬虫学习笔记】.Net 基于ARSoft.Tools.Net的DNS解析模块（半成品）
 tags:
   - 爬虫
-  - ARSoft.Tools.Net
   - 'C#'
   - DNS
 abbrlink: 61444

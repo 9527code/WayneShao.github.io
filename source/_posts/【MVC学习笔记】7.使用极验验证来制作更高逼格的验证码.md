@@ -2,7 +2,7 @@
 title: 【MVC学习笔记】7.使用极验验证来制作更高逼格的验证码
 tags:
   - MVC
-  - 极验
+  - 验证码
 abbrlink: 47398
 date: 2016-09-20 20:15:16
 categories:

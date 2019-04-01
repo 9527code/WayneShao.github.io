@@ -4,7 +4,7 @@ tags:
   - ASR
   - TTS
   - NAudio
-  - 讯飞语音识别
+  - 语音识别
 abbrlink: 43271
 date: 2018-03-02 11:35:00
 categories:

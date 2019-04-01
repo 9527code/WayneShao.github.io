@@ -7,7 +7,7 @@ tags:
   - full page screenshot
   - 全页面截图
 categories:
-  - 经验之谈
+  - 踩坑笔记
 abbrlink: 40690
 date: 2018-07-11 20:19:29
 ---

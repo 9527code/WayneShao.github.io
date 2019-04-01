@@ -1,7 +1,7 @@
 ---
 title: 如何在IIS中托管.NET Core应用
 tags:
-  - .NET Core
+  - .NET
   - IIS
 abbrlink: 19877
 date: 2018-03-05 01:36:13

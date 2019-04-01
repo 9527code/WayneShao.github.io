@@ -4,10 +4,8 @@ abbrlink: 15089
 date: 2019-02-21 23:11:56
 author: 玮仔Wayne
 tags:
-  - Consul
-  - HashiCorp
   - 服务治理发现
-  - .NET Core
+  - .NET
 categories:
   - 学习笔记
 ---
